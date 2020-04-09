@@ -1,0 +1,28 @@
+header {
+    border: 1px solid goldenrod; 
+  }
+
+  ul li {
+    margin: 10px 0 10px 0;
+    list-style: none;
+  }
+
+  a  .disabled {
+      color:rgba(155, 11, 203, 0.767);
+  }
+
+    .disabled {
+    color:rgb(99, 98, 98);
+}
+
+.active {
+    color: rgba(255, 219, 15, 0.74);
+}
+
+section .parent div:first-child {
+    color:red;
+}
+
+section .parent div:nth-last-child(2) {
+    color:blue;
+}
